@@ -1,0 +1,572 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl" ],
+    "iri" : "xml:base"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "26",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#balada",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "balada"
+    },
+    "intersection" : [ "1" ],
+    "comment" : {
+      "undefined" : "Balada"
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#rock",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "rock"
+    },
+    "comment" : {
+      "undefined" : "Rock \\m/ "
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#guitarra",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "guitarra"
+    },
+    "comment" : {
+      "undefined" : "Guitarra"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#instrumento",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "instrumento"
+    },
+    "subClasses" : [ "7", "8", "9", "5" ],
+    "comment" : {
+      "undefined" : "Instrumentos musicales."
+    },
+    "attributes" : [ "external" ],
+    "id" : "6"
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "3" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "11"
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#clasico",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "clasico"
+    },
+    "intersection" : [ "2" ],
+    "comment" : {
+      "undefined" : "\n  \t\t\tRock clasico\n \t\t"
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#bateria",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "bateria"
+    },
+    "comment" : {
+      "undefined" : "Bateria"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#artista",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "artista"
+    },
+    "comment" : {
+      "undefined" : "Artista."
+    },
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "25",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#ska",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ska"
+    },
+    "intersection" : [ "2" ],
+    "comment" : {
+      "undefined" : "\n  \t\t\tSka\n \t\t"
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#cuerdas",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "cuerdas"
+    },
+    "subClasses" : [ "4", "21" ],
+    "comment" : {
+      "undefined" : "Instrumentos de cuerdas"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#pop",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "pop"
+    },
+    "comment" : {
+      "undefined" : "Musica Pop"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#trompeta",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "trompeta"
+    },
+    "comment" : {
+      "undefined" : "Trompeta"
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#genero",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "genero"
+    },
+    "subClasses" : [ "1", "2" ],
+    "comment" : {
+      "undefined" : "Generos musicales."
+    },
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#dance",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dance"
+    },
+    "intersection" : [ "1" ],
+    "comment" : {
+      "undefined" : "Dance"
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#organo",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "organo"
+    },
+    "comment" : {
+      "undefined" : "Organo"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#saxofon",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "saxofon"
+    },
+    "comment" : {
+      "undefined" : "Sax"
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#teclado",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "teclado"
+    },
+    "subClasses" : [ "32", "30" ],
+    "comment" : {
+      "undefined" : "Instrumentos con teclas"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#sintetizador",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "sintetizador"
+    },
+    "comment" : {
+      "undefined" : "Sintetizador"
+    },
+    "attributes" : [ "external" ],
+    "id" : "32",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#percusion",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "percusion"
+    },
+    "subClasses" : [ "23", "33" ],
+    "comment" : {
+      "undefined" : "Instrumentos de percusion"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#metal",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "metal"
+    },
+    "intersection" : [ "2" ],
+    "comment" : {
+      "undefined" : "\n\t\t\tHeavy metal\n\t\t"
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#bajo",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "bajo"
+    },
+    "comment" : {
+      "undefined" : "Bajo"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#guitarrista",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "guitarrista"
+    },
+    "individuals" : [ {
+      "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#tommorello",
+      "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+      "comment" : {
+        "undefined" : "Tom Morello Guitarrista de RATM"
+      },
+      "labels" : {
+        "IRI-based" : "tommorello"
+      }
+    } ],
+    "intersection" : [ "13" ],
+    "comment" : {
+      "undefined" : "Guitarrista"
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#viento",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "viento"
+    },
+    "subClasses" : [ "31", "27" ],
+    "comment" : {
+      "undefined" : "Instrumentos de viento"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#timbales",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "timbales"
+    },
+    "comment" : {
+      "undefined" : "Timbales"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "8" ]
+  } ],
+  "property" : [ {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#tocadoPor",
+    "inverse" : "12",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "tocadoPor"
+    },
+    "domain" : "11",
+    "attributes" : [ "object", "external" ],
+    "id" : "10"
+  }, {
+    "range" : "6",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "6",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "6",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "range" : "5",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "3",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "6",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#toca",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "toca"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#subgenero",
+    "baseIri" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "subgenero"
+    },
+    "domain" : "25",
+    "attributes" : [ "transitive", "object", "external" ],
+    "id" : "29"
+  }, {
+    "range" : "8",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "8",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "9",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "9",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "3",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "7",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "7",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  } ]
+}
