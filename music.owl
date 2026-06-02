@@ -41,7 +41,7 @@
 
 	<owl:Class rdf:ID="metal">
 		<rdfs:comment>
-			Heavy metal
+			Metal
 		</rdfs:comment>
 	 
  		<owl:intersectionOf rdf:parseType="Collection">
