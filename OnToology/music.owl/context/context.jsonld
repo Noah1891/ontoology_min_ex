@@ -7,8 +7,14 @@
     "trompeta" : {
       "@id" : "file://home/ahmad/repos/nheuser%40uni-koblenz.de/music.owl#trompeta"
     },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
     "dance" : {
       "@id" : "file://home/ahmad/repos/nheuser%40uni-koblenz.de/music.owl#dance"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
     },
     "saxofon" : {
       "@id" : "file://home/ahmad/repos/nheuser%40uni-koblenz.de/music.owl#saxofon"
@@ -59,6 +65,9 @@
     "metal" : {
       "@id" : "file://home/ahmad/repos/nheuser%40uni-koblenz.de/music.owl#metal"
     },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
     "teclado" : {
       "@id" : "file://home/ahmad/repos/nheuser%40uni-koblenz.de/music.owl#teclado"
     },
@@ -83,6 +92,9 @@
     },
     "ska" : {
       "@id" : "file://home/ahmad/repos/nheuser%40uni-koblenz.de/music.owl#ska"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     }
   }
 }

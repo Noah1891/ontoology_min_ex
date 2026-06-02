@@ -1,12 +1,32 @@
-@prefix : <xml:base#> .
+@prefix : <http://www.example.org/music#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <xml:base#> .
+@base <http://www.example.org/music#> .
 
-<xml:base> rdf:type owl:Ontology .
+<http://www.example.org/music> rdf:type owl:Ontology ;
+                                <http://purl.org/dc/elements/1.1/description> "An ontology describing musical genres, sub-genres, and instruments." ;
+                                <http://purl.org/dc/elements/1.1/title> "Music Ontology" ;
+                                <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                owl:versionInfo "1.0.0" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
 
 #################################################################
 #    Object Properties

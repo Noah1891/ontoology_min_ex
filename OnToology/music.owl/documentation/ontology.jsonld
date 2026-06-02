@@ -409,6 +409,27 @@
     "@id" : "file:/home/ahmad/repos/nheuser@uni-koblenz.de/music.owl#instrumento"
   } ]
 }, {
-  "@id" : "xml:base",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.example.org/music",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "An ontology describing musical genres, sub-genres, and instruments."
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "Music Ontology"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.0.0"
+  } ]
 } ]
